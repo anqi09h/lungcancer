@@ -12,3 +12,5 @@ library(EnhancedVolcano)
 library(dplyr)
 library(ggplot2)
 library(ggrepel)
+
+gdc_project = getGDCprojects()
