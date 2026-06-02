@@ -15,3 +15,4 @@ library(ggrepel)
 
 gdc_project = getGDCprojects()
 View(gdc_project)
+head(gdc_project)
