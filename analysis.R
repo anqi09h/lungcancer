@@ -19,3 +19,4 @@ head(gdc_project)
 head(gdc_project)[c("project_id", "name")]
 
 getGDCprojects()$project_id
+getProjectSummary("TCGA-LUAD")
