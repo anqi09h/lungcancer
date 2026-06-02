@@ -17,3 +17,5 @@ gdc_project = getGDCprojects()
 View(gdc_project)
 head(gdc_project)
 head(gdc_project)[c("project_id", "name")]
+
+getGDCprojects()$project_id
