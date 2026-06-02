@@ -14,3 +14,4 @@ library(ggplot2)
 library(ggrepel)
 
 gdc_project = getGDCprojects()
+View(gdc_project)
