@@ -28,3 +28,6 @@ output_snv_query = getResults(snv_query)
 View(output_snv_query)
 snv_query = GDCquery(project = 'TCGA-LUAD', 
                      data.category = 'Simple Nucleotide Variation',
+                      access = 'open',
+                     data.type = 'Masked Somatic Mutation',
+                     data.format = 'MAF')
