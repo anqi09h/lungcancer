@@ -31,3 +31,4 @@ snv_query = GDCquery(project = 'TCGA-LUAD',
                       access = 'open',
                      data.type = 'Masked Somatic Mutation',
                      data.format = 'MAF')
+View(snv_query)
