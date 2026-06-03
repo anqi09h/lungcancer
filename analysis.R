@@ -20,3 +20,6 @@ head(gdc_project)[c("project_id", "name")]
 
 getGDCprojects()$project_id
 getProjectSummary("TCGA-LUAD")
+
+snv_query = GDCquery(project = 'TCGA-LUAD', 
+                     data.category = 'Simple Nucleotide Variation')
