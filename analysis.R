@@ -23,3 +23,4 @@ getProjectSummary("TCGA-LUAD")
 
 snv_query = GDCquery(project = 'TCGA-LUAD', 
                      data.category = 'Simple Nucleotide Variation')
+View(snv_query)
