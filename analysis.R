@@ -34,3 +34,4 @@ snv_query = GDCquery(project = 'TCGA-LUAD',
 View(snv_query)
 
 output_snv_query = getResults(snv_query)
+View(output_snv_query)
