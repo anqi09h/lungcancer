@@ -38,3 +38,5 @@ View(output_snv_query)
 
 GDCdownload(snv_query)
 maf <- GDCprepare(snv_query)
+
+maf = read.maf(maf = maf)
