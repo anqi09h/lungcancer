@@ -37,3 +37,4 @@ output_snv_query = getResults(snv_query)
 View(output_snv_query)
 
 GDCdownload(snv_query)
+maf <- GDCprepare(snv_query)
