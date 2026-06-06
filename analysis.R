@@ -40,3 +40,5 @@ GDCdownload(snv_query)
 maf <- GDCprepare(snv_query)
 
 maf = read.maf(maf = maf)
+
+maf <- readRDS("exports/TCGA_LUAD_maf.rds")
