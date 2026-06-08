@@ -53,3 +53,7 @@ plotmafSummary(maf = maf,
 
 oncoplot(maf = maf,
          top = 20)
+
+titv(maf = maf,
+     plot = TRUE,
+     useSyn = TRUE)
