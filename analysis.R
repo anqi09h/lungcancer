@@ -46,3 +46,7 @@ maf <- readRDS("exports/TCGA_LUAD_maf.rds")
 View(maf)
 
 getSampleSummary(maf)
+
+plotmafSummary(maf = maf,
+               rmOutlier = TRUE,
+               dashboard = TRUE)
