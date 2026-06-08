@@ -65,3 +65,5 @@ png(filename = "plots/oncoplot.png",
 
 oncoplot(maf = maf,
          top = 20)
+
+dev.off()
