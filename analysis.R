@@ -57,7 +57,11 @@ oncoplot(maf = maf,
 titv(maf = maf,
      plot = TRUE,
      useSyn = TRUE)
+
 png(filename = "plots/oncoplot.png", 
     width = 2600, 
     height = 2000, 
     res = 300)
+
+oncoplot(maf = maf,
+         top = 20)
