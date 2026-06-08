@@ -50,3 +50,6 @@ getSampleSummary(maf)
 plotmafSummary(maf = maf,
                rmOutlier = TRUE,
                dashboard = TRUE)
+
+oncoplot(maf = maf,
+         top = 20)
