@@ -74,3 +74,4 @@ rna_query = GDCquery(project ='TCGA-LUAD',
                      data.category = 'Transcriptome Profiling',
                       access ='open',
                      experimental.strategy = 'RNA-Seq',
+                     sample.type = c('Primary Tumor', 'Solid Tissue Normal'))
