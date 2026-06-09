@@ -67,3 +67,5 @@ oncoplot(maf = maf,
          top = 20)
 
 dev.off()
+
+getProjectSummary('TCGA-LUAD')
