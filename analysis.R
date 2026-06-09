@@ -75,3 +75,4 @@ rna_query = GDCquery(project ='TCGA-LUAD',
                       access ='open',
                      experimental.strategy = 'RNA-Seq',
                      sample.type = c('Primary Tumor', 'Solid Tissue Normal'))
+output_rna_query = getResults(rna_query)
