@@ -71,3 +71,4 @@ dev.off()
 getProjectSummary('TCGA-LUAD')
 
 rna_query = GDCquery(project ='TCGA-LUAD',
+                     data.category = 'Transcriptome Profiling',
