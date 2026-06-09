@@ -69,3 +69,5 @@ oncoplot(maf = maf,
 dev.off()
 
 getProjectSummary('TCGA-LUAD')
+
+rna_query = GDCquery(project ='TCGA-LUAD',
