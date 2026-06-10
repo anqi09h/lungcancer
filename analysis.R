@@ -81,3 +81,5 @@ GDCdownload(rna_query)
 rna = GDCprepare(rna_query)
 
 rna_matrix = assay(rna,'unstranded')
+
+maf <- readRDS("exports/TCGA_LUAD_rna_matrix.rds")
