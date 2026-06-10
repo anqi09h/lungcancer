@@ -76,3 +76,4 @@ rna_query = GDCquery(project ='TCGA-LUAD',
                      experimental.strategy = 'RNA-Seq',
                      sample.type = c('Primary Tumor', 'Solid Tissue Normal'))
 output_rna_query = getResults(rna_query)
+unique(output_rna_query$sample_type)
