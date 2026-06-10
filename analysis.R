@@ -78,3 +78,4 @@ rna_query = GDCquery(project ='TCGA-LUAD',
 output_rna_query = getResults(rna_query)
 unique(output_rna_query$sample_type)
 GDCdownload(rna_query)
+rna = GDCprepare(rna_query)
